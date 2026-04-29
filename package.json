@@ -1,0 +1,17 @@
+{
+  "name": "mini-crm",
+  "version": "1.0.0",
+  "description": "Mini CRM System — Full-stack MERN application",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "dev": "cd server && npm run dev",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm install && npm run build",
+    "render-build": "cd server && npm install && cd ../client && npm install && npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
